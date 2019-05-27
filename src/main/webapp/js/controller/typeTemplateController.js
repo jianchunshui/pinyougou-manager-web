@@ -99,13 +99,13 @@ app.controller('typeTemplateController' ,function($scope,$controller   ,typeTemp
 		);
 	}
 	
-//	$scope.entity={customAttrbuteItems:[]};
+//	$scope.entity={customAttributeItems:[]};
 	$scope.addTableRow=function(){
-		$scope.entity.customAttrbuteItems.push({});
+		$scope.entity.customAttributeItems.push({});
 	}
 	
 	$scope.deleTableRow=function(){
-		$scope.entity.customAttrbuteItems.splice(index,1);
+		$scope.entity.customAttributeItems.splice(index,1);
 	}
 	
     
